@@ -1,0 +1,382 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Jane shopping</title>
+    <link rel="stylesheet" href="css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <link rel="stylesheet" href="css/thickbox.css" type="text/css" />
+    <link rel="stylesheet" href='css/box.css' type='text/css' />
+    <link rel="stylesheet" href="css/skin/skin_0.css" type="text/css" id="cssfile" />
+    <script src="frameworks/jquery.js" type="text/javascript"></script>
+    <script src="frameworks/jquery.cookie.js" type="text/javascript"></script>
+    <!-- 产品缩略图 -->
+    <script src="frameworks/jquery.jqzoom.js" type="text/javascript"></script>
+    <!-- 遮罩图片 -->
+    <script src="frameworks/jquery.thickbox.js" type="text/javascript"></script>
+    <!-- 内容提交 -->
+    <script src="frameworks/jquery.simplemodal.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+</head>
+<body>
+<!--头部开始-->
+<div id="header">
+    <div class="contWidth">
+        <a class="logo" href="#nogo"><img src="images/logo.gif" alt="JaneShop"/></a>
+        <div class="search">
+            <input type="text" id="inputSearch" class="" value="请输入商品名称" />
+        </div>
+        <ul id="skin">
+            <li id="skin_0" title="蓝色" class="selected">蓝色</li>
+            <li id="skin_1" title="紫色">紫色</li>
+            <li id="skin_2" title="红色">红色</li>
+            <li id="skin_3" title="天蓝色">天蓝色</li>
+            <li id="skin_4" title="橙色">橙色</li>
+            <li id="skin_5" title="淡绿色">淡绿色</li>
+        </ul>
+        <!-- 导航 start -->
+        <div id="nav" class="mainNav">
+            <ul class="nav">
+                <li><a href="#">首 页</a></li>
+                <li><a href="#">小说</a>
+                    <div class="jnNav">
+                        <div class="subitem">
+                            <dl class="fore">
+                                <dt>
+                                    <a href="#nogo">小说：</a>
+                                </dt>
+                                <dd>
+                                    <em ><a href="#nogo">四大名著</a></em>
+                                    <em ><a href="#nogo">作品集</a></em>
+                                    <em ><a href="#nogo">情感</a></em>
+                                    <em ><a href="#nogo">魔幻</a></em>
+                                    <em ><a href="#nogo">社会</a></em>
+                                    <em ><a href="#nogo">武侠</a></em>
+                                    <em ><a href="#nogo">惊悚/恐怖</a></em>
+                                    <em ><a href="#nogo">历史</a></em>
+                                    <em ><a href="#nogo">影视</a></em>
+                                    <em ><a href="#nogo">官场</a></em>
+                                    <em ><a href="#nogo">职场</a></em>
+                                    <em ><a href="#nogo">财经</a></em>
+                                    <em class="noborder"><a href="#nogo">军事</a></em>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <a href="#nogo">小说：</a>
+                                </dt>
+                                <dd>
+                                    <em ><a href="#nogo">四大名著</a></em>
+                                    <em ><a href="#nogo">作品集</a></em>
+                                    <em ><a href="#nogo">情感</a></em>
+                                    <em ><a href="#nogo">魔幻</a></em>
+                                    <em ><a href="#nogo">社会</a></em>
+                                    <em ><a href="#nogo">武侠</a></em>
+                                    <em ><a href="#nogo">惊悚/恐怖</a></em>
+                                    <em ><a href="#nogo">历史</a></em>
+                                    <em ><a href="#nogo">影视</a></em>
+                                    <em ><a href="#nogo">官场</a></em>
+                                    <em ><a href="#nogo">职场</a></em>
+                                    <em ><a href="#nogo">财经</a></em>
+                                    <em class="noborder"><a href="#nogo">军事</a></em>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">文 艺</a>
+                    <div class="jnNav">
+                        <div class="subitem">
+                            <dl class="fore">
+                                <dt>
+                                    <a href="#nogo">小说：</a>
+                                </dt>
+                                <dd>
+                                    <em ><a href="#nogo">四大名著</a></em>
+                                    <em ><a href="#nogo">作品集</a></em>
+                                    <em ><a href="#nogo">情感</a></em>
+                                    <em ><a href="#nogo">魔幻</a></em>
+                                    <em ><a href="#nogo">社会</a></em>
+                                    <em ><a href="#nogo">武侠</a></em>
+                                    <em ><a href="#nogo">惊悚/恐怖</a></em>
+                                    <em ><a href="#nogo">历史</a></em>
+                                    <em ><a href="#nogo">影视</a></em>
+                                    <em ><a href="#nogo">官场</a></em>
+                                    <em ><a href="#nogo">职场</a></em>
+                                    <em ><a href="#nogo">财经</a></em>
+                                    <em class="noborder"><a href="#nogo">军事</a></em>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <a href="#nogo">小说：</a>
+                                </dt>
+                                <dd>
+                                    <em ><a href="#nogo">四大名著</a></em>
+                                    <em ><a href="#nogo">作品集</a></em>
+                                    <em ><a href="#nogo">情感</a></em>
+                                    <em ><a href="#nogo">魔幻</a></em>
+                                    <em ><a href="#nogo">社会</a></em>
+                                    <em ><a href="#nogo">武侠</a></em>
+                                    <em ><a href="#nogo">惊悚/恐怖</a></em>
+                                    <em ><a href="#nogo">历史</a></em>
+                                    <em ><a href="#nogo">影视</a></em>
+                                    <em ><a href="#nogo">官场</a></em>
+                                    <em ><a href="#nogo">职场</a></em>
+                                    <em ><a href="#nogo">财经</a></em>
+                                    <em class="noborder"><a href="#nogo">军事</a></em>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">青 春</a>
+                    <div class="jnNav">
+                        <div class="subitem">
+                            <dl class="fore">
+                                <dt>
+                                    <a href="#nogo">小说：</a>
+                                </dt>
+                                <dd>
+                                    <em ><a href="#nogo">四大名著</a></em>
+                                    <em ><a href="#nogo">作品集</a></em>
+                                    <em ><a href="#nogo">情感</a></em>
+                                    <em ><a href="#nogo">魔幻</a></em>
+                                    <em ><a href="#nogo">社会</a></em>
+                                    <em ><a href="#nogo">武侠</a></em>
+                                    <em ><a href="#nogo">惊悚/恐怖</a></em>
+                                    <em ><a href="#nogo">历史</a></em>
+                                    <em ><a href="#nogo">影视</a></em>
+                                    <em ><a href="#nogo">官场</a></em>
+                                    <em ><a href="#nogo">职场</a></em>
+                                    <em ><a href="#nogo">财经</a></em>
+                                    <em class="noborder"><a href="#nogo">军事</a></em>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <a href="#nogo">小说：</a>
+                                </dt>
+                                <dd>
+                                    <em ><a href="#nogo">四大名著</a></em>
+                                    <em ><a href="#nogo">作品集</a></em>
+                                    <em ><a href="#nogo">情感</a></em>
+                                    <em ><a href="#nogo">魔幻</a></em>
+                                    <em ><a href="#nogo">社会</a></em>
+                                    <em ><a href="#nogo">武侠</a></em>
+                                    <em ><a href="#nogo">惊悚/恐怖</a></em>
+                                    <em ><a href="#nogo">历史</a></em>
+                                    <em ><a href="#nogo">影视</a></em>
+                                    <em ><a href="#nogo">官场</a></em>
+                                    <em ><a href="#nogo">职场</a></em>
+                                    <em ><a href="#nogo">财经</a></em>
+                                    <em class="noborder"><a href="#nogo">军事</a></em>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">人文社科</a></li>
+            </ul>
+        </div>
+        <!-- 导航 end -->
+    </div>
+</div>
+<!--头部结束-->
+<!--主体开始-->
+<div id="content">
+    <div class="janeshop">
+        <!-- 商品分类 start -->
+        <div id="jnCatalog">
+            <h2 title="图书分类">图书分类</h2>
+            <div class="jnCatainfo">
+                <h3>推荐图书</h3>
+                <ul>
+                    <li><a href="#nogo" >白夜行</a></li>
+                    <li><a href="#nogo" class="promoted">活着</a></li>
+                    <li><a href="#nogo" >解忧杂货店</a></li>
+                    <li><a href="#nogo" >从你的全世界路过</a></li>
+                    <li><a href="#nogo" >追风筝的人</a></li>
+                    <li><a href="#nogo" >摆渡人</a></li>
+                    <li><a href="#nogo" class="promoted">平凡的世界</a></li>
+                    <li><a href="#nogo" >瓦尔登湖</a></li>
+                </ul>
+                <br class="clear" />
+                <h3>小说</h3>
+                <ul>
+                    <li><a href="#nogo" >四大名著</a></li>
+                    <li><a href="#nogo" >作品集</a></li>
+                    <li><a href="#nogo" >情感</a></li>
+                    <li><a href="#nogo" >魔幻</a></li>
+                    <li><a href="#nogo" >社会</a></li>
+                    <li><a href="#nogo" >武侠</a></li>
+                    <li><a href="#nogo" >惊悚/恐怖</a></li>
+                    <li><a href="#nogo" >历史</a></li>
+                </ul>
+                <br class="clear" />
+                <h3>文艺</h3>
+                <ul>
+                    <li><a href="#nogo" >文学</a></li>
+                    <li><a href="#nogo" >传记</a></li>
+                    <li><a href="#nogo" >艺术</a></li>
+                    <li><a href="#nogo" >摄影</a></li>
+                </ul>
+                <br class="clear" />
+                <h3>青春</h3>
+                <ul>
+                    <li><a href="#nogo" >青春文学</a></li>
+                    <li><a href="#nogo" >动漫</a></li>
+                    <li><a href="#nogo" >幽默</a></li>
+                </ul>
+                <br class="clear" />
+                <h3>童书</h3>
+                <ul>
+                    <li><a href="#nogo" >科普/百科</a></li>
+                    <li><a href="#nogo" >图画书</a></li>
+                    <li><a href="#nogo" >文学</a></li>
+                    <li><a href="#nogo" >英语</a></li>
+                </ul>
+                <br class="clear" />
+            </div>
+        </div>
+        <!-- 商品分类 end -->
+
+        <!-- 商品信息 start -->
+        <div id="jnProitem">
+            <div class="jqzoomWrap">
+                <a href="images/pro_img/blue_one_big.jpg" class="jqzoom" rel='gal1' title="免烫高支棉条纹衬衣" >
+                    <img src="images/pro_img/blue_one_small.jpg" title="免烫高支棉条纹衬衣" alt="免烫高支棉条纹衬衣" id="bigImg" />
+                </a>
+            </div>
+            <span>
+                <a title="偷影子的人" id="thickImg" href="images/pro_img/blue_one_big.jpg" class="thickbox">
+                   <img src="images/look.gif" alt="点击看大图" />
+                </a>
+            </span>
+            <ul class="imgList">
+
+                <li class="imgList_blue"><a href='javascript:void(0);' rel="{gallery: 'gal1', smallimage: 'images/pro_img/blue_one_small.jpg',largeimage: 'images/pro_img/blue_one_big.jpg'}"><img src='images/pro_img/blue_one.jpg' alt=""/></a></li>
+                <li class="imgList_blue"><a href='javascript:void(0);' rel="{gallery: 'gal1', smallimage: 'images/pro_img/blue_two_small.jpg',largeimage: 'images/pro_img/blue_two_big.jpg'}"><img src='images/pro_img/blue_two.jpg' alt=""/></a></li>
+                <li class="imgList_blue"><a href='javascript:void(0);' rel="{gallery: 'gal1', smallimage: 'images/pro_img/blue_three_small.jpg',largeimage: 'images/pro_img/blue_three_big.jpg'}"><img src='images/pro_img/blue_three.jpg' alt=""/></a></li>
+
+                <li class="imgList_green hide"><a href='javascript:void(0);' rel="{gallery: 'gal1', smallimage: 'images/pro_img/green_one_small.jpg',largeimage: 'images/pro_img/green_one_big.jpg'}"><img src='images/pro_img/green_one.jpg' alt=""/></a></li>
+                <li class="imgList_green hide"><a href='javascript:void(0);' rel="{gallery: 'gal1', smallimage: 'images/pro_img/green_two_small.jpg',largeimage: 'images/pro_img/green_two_big.jpg'}"><img src='images/pro_img/green_two.jpg' alt=""/></a></li>
+
+            </ul>
+            <div class="tab">
+                <div class="tab_menu">
+                    <ul>
+                        <li class="selected">编辑推荐</li>
+                        <li>作者简介</li>
+                        <li>内容推荐</li>
+                    </ul>
+                </div>
+                <div class="tab_box">
+                    <div>
+                        这部作品完美展现了马克.李维温柔 风趣的写作风格，有催人泪下的亲情、浪漫感人的爱情和不离不弃的友情，清新浪漫的气息和温柔感人的故事相互交织，带给读者笑中带泪的阅读感受，是一部唤醒 童年回忆和内心梦想的温情疗愈小说。                     </div>
+                    <div class="hide">
+                        马克·李维：全世界拥有最多读者的法国作家，作品热销全球45国，累计销量超过26000000册，连续12年蝉联“法国最畅销作家”，拥有让大导演斯皮尔伯格只看两页书稿，就重金购下电影版权的神奇魅力。
+                    </div>
+                    <div class="hide">
+                        不知道姓氏的克蕾儿。这就是你在我生命里的角色，我童年时的小女孩，今日蜕变成了女人，一段青梅竹马的回忆，一个时间之神没有应允的愿望。
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 商品信息 end -->
+
+        <!-- 商品列表 start -->
+        <div id="jnDetails">
+            <div class="jnProDetail">
+                <h4>偷影子的人</h4>
+                <ul class="jnProDetailList">
+                    <li >
+                        一部令法国为之动容的温情疗愈小说，法国年度畅销图书，吴佩慈、SHE落泪推荐！附赠浪漫告白卡——“青春初吻”纪念明信片
+                    </li>
+                    <li >
+                        <span>价&#12288;&#12288;格：</span>
+                        <strong class="del">29.8</strong>元
+                    </li>
+                    <li class="tbDetailPrice">
+                        <span>促&#12288;&#12288;销：</span>
+                        <strong>20.5</strong>元
+                    </li>
+                    <li class="color_change">
+                        <span>书&#12288;&#12288;名：</span>
+                        <strong>偷影子的人</strong>
+                        <ul>
+                            <li><img alt="偷影子的人" src="images/pro_img/blue.jpg" /></li>
+                            <li><img alt="偷影子的人：精装插图版" src="images/pro_img/green.jpg" /></li>
+                        </ul>
+                    </li>
+                    <!--
+                    <li class="pro_size">
+                        <span>尺&#12288;&#12288;寸：</span>
+                        <strong>未选择</strong>
+                        <ul>
+                            <li>S</li>
+                            <li>L</li>
+                            <li>SL</li>
+                            <li>LL</li>
+                        </ul>
+                    </li>
+                    -->
+                    <li >
+                        <span>数&#12288;&#12288;量：</span>
+                        <div class="pro_num">
+                            <select id="num_sort">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li class="pro_price">
+                        <span>总&#12288;&#12288;计：</span>
+                        <strong>20.5</strong>元
+                    </li>
+                </ul>
+                <div class="pro_rating">
+                    给图书评分：
+                    <ul class="rating nostar">
+                        <li class="one"><a title="1分" href="#">1</a></li>
+                        <li class="two"><a title="2分" href="#">2</a></li>
+                        <li class="three"><a title="3分" href="#">3</a></li>
+                        <li class="four"><a title="4分" href="#">4</a></li>
+                        <li class="five"><a title="5分" href="#">5</a></li>
+                    </ul>
+                </div>
+                <div id="cart">
+                    <a href="#"><img src="images/btn_cart.png" alt="放入购物车" /></a>
+                </div>
+            </div>
+        </div>
+        <!-- 商品列表 end -->
+    </div>
+</div>
+<!--主体结束-->
+<div id="footer">Copyright &copy; 2009 - 2012 MyBook Inc. </div>
+
+
+<!-- 普通弹出层 [[ -->
+<div id="basic-dialog-ok">
+    <div class="box-title show"><h2>提示</h2></div>
+    <div class="box-main">
+        <div class="tips">
+			<span class="tips-ico">
+				<span class="ico-ok"><!-- 图标 --></span>
+			</span>
+            <div class="tips-content">
+                <div class="tips-title" id="jnDialogContent"></div>
+                <div class="tips-line"></div>
+            </div>
+        </div>
+        <div class="box-buttons"><button type="button" class="simplemodal-close">关 闭</button></div>
+    </div>
+</div>
+<!-- 普通弹出层 ]] -->
+
+</body>
+</html>
